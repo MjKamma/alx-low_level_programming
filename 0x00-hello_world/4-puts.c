@@ -1,12 +1,12 @@
-#include <stadio.h>
+#include <stdio.h>
 
 /**
- *  main - print the string in the puts function   
+ * main - print the string in the puts function 
  *
- *  discription: using the main function 
- *  this program prints "Programming is like building a multilingual puzzle
- *  return: 0
- */
+ * discription: using the main function 
+ * this program prints "Programming is like building a multilingual puzzle
+ * return: 0
+*/
 
 int main (void)
 {
