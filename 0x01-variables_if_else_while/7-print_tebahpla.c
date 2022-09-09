@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry pint 
+ * main - Entry point
  * Description: print lowercase alphabet a-z in reverse
  * Return: Always 0 (Success)
 */
