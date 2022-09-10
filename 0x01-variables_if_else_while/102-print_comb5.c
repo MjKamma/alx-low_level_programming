@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * imain - Entry Point
+ * main - Entry Point
  * Description: Write a program that prints two two-digit numbers
  * different combinations of two digits
  * Return: 0
