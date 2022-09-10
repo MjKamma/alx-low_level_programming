@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: printall possible combinations of single-digit numbers. 0, 1, - 9
+ * Description: print all possible single-digit numbers 0, 1, - 9
  * Return: Always 0 (Success)
 */
 
