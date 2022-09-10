@@ -4,36 +4,33 @@
  * main - Entry Point
  * Description: Write a program that prints two two-digit numbers
  * different combinations of two digits
- * Return: 0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int firstDigit = 0, seconDigit;
+	int num1, num2;
 
-	while (firstDigit <= 99)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		seconDigit = firstDigit;
-		while (seconDigit <= 99)
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			if (seconDigit != firstDigit)
-			{
-				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit % 10) + 48);
-				putchar(' ');
-				putchar((seconDigit / 10) + 48);
-				putchar((seconDigit % 10) + 48);
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
 
-				if (firstDigit != 98 || seconDigit != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			++seconDigit;
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
-		++seconDigit;
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
