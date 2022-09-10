@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
+ * imain - Entry Point
  * Description: Write a program that prints all possible combinations of two two-digit numbers.
  * different combinations of two digits
  * Return: 0
@@ -34,6 +35,7 @@ int main(void)
 		++seconDigit;
 	}
 	putchar('\n');
+	
 	return (0);
 }
 
