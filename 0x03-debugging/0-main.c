@@ -1,7 +1,7 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - test for a positive or nageative function
+ * main - test functionthat prints if integer is positive or nageative
  * Return: 0
 */
 
@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	i = 98 % 2;
+	i = 0;
 	positive_or_nagative(i);
 
 	return (0);
