@@ -2,16 +2,16 @@
 
 /**
  * print_numbers - function that checks for uppercase character.
- * Return: 0
+ * Return: void
 */
 void print_numbers(void)
 {
-	char c = '0';
+	char a = 0;
 
-	while (c <= '9')
+	while (a <= 9)
 	{
-		_putchar(c);
-		c++;
+		_putchar(a + '0');
+		a++;
 	}
 	_putchar('\n');
 }
