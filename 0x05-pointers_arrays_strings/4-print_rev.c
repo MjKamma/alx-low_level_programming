@@ -7,8 +7,8 @@
 */
 void print_rev(char *s)
 {
-	int c;
-	
+	int ci;
+
 	for (c = 0; s[c] != 0; c++)
 	{
 	}
