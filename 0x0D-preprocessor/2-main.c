@@ -1,6 +1,13 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
+#include <stdio.h>
 
-#define ABS(x) ((x) < 0 ? (-(x)) : (x))
+/**
+* main - Prints the name of the file of the program
+*        was compiled from, followed by a new line.
+* Return: Always 0.
+*/
+int main(void)
+{
+	printf("%s\n", __FILE__);
 
-#endif
+	return (0);
+}
