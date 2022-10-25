@@ -1,4 +1,5 @@
-This project is about More singly linked lists. Editors allowed to be used: vi, vim, emacs.  All the files was be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+This project is about More singly linked lists. Editors allowed to be used: vi, vim, emacs.  
+All the files was compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
 
 File 0-print_listint.c is a function that prints all the elements of a listint_t list.
 
@@ -30,4 +31,4 @@ File 102-free_listint_safe.c is a function that frees a listint_t list, safely.
 
 File 103-find_loop.c is a function that finds the loop in a linked list.
 
-File lists.h is the header file containing all the function prototypes used on thisProject.
+File lists.h is the header file containing all the function prototypes used on this Project.
