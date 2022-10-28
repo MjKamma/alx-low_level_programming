@@ -1,5 +1,7 @@
 This project is all about bit maunipulation in C programming Language.
-The codes compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.File 0-binary_to_uint.c is a function that converts a binary number to an unsigned int.
+The codes compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+
+File 0-binary_to_uint.c is a function that converts a binary number to an unsigned int.
 
 File 1-print_binary.c is a function that prints the binary representation of a number.
 
