@@ -1,1 +1,1 @@
-This project ais bout doubly linked lists
+This project is all about doubly linked lists
